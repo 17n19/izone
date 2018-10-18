@@ -115,8 +115,10 @@
         <div class="container">
             <div class="row">
                 <img class="footer-curve" src="img/core-img/breadcrumb-line.png" alt="">
-                <div class="footer-social-info d-flex align-items-center justify-content-between">
-                        <a href="https://www.youtube.com/channel/UCe_oTYByLWQYCUmgmOMU_xw"><span>VIDEO</span></a>
+                <div class="col-sm-12 col-md-1">
+                    <div class="footer-social-info d-flex align-items-center justify-content-between">
+                            <a href="https://www.youtube.com/channel/UCe_oTYByLWQYCUmgmOMU_xw"><span>VIDEO</span></a>
+                    </div>
                 </div>
                 <img class="footer-curve" src="img/core-img/breadcrumb-line.png" alt="">
             </div>
@@ -128,8 +130,7 @@
         <div class="container mt-5">
             <div class="row mb-3">
                 <div class="col-sm-6 col-md-3 mb-3 mb-md-0">
-                    <a href="https://www.youtube.com/watch?v=h4oNj-W97FU" data-toggle="lightbox" data-gallery="youtubevideos" >
-                        <iframe width="1519" height="586" src="https://www.youtube.com/embed/h4oNj-W97FU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <a href="C:\Users\17n19\Documents\izone\video\What IZ your color_t.mp4" data-toggle="lightbox" data-gallery="youtubevideos" >
                         <img src="https://i.ytimg.com/vi/h4oNj-W97FU/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCpfJsjeaDNkmcijslXruRbGgWzQQ" class="img-fluid">
                     </a>
                 </div>
@@ -138,12 +139,12 @@
                         <img src="https://i.ytimg.com/vi/YGiLQUc8x5E/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAnUcyyDmz4SHtmqbV9IKW4Wsez8Q" class="img-fluid">
                     </a>
                 </div>
-                <div class="col-sm-6 col-md-3 ">
+                <div class="col-sm-6 col-md-3 mb-md-0">
                     <a href="www.youtube.com/embed/b0jqPvpn3sY" data-toggle="lightbox" data-gallery="youtubevideos">
                         <img src="https://i.ytimg.com/vi/2wXkYNVfwfw/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLC8nhfoBndQbTIIJi0HbVUDph9MiA" class="img-fluid">
                     </a>
                 </div>
-                <div class="col-sm-6 col-md-3 ">
+                <div class="col-sm-6 col-md-3 mb-md-0">
                     <a href="https://www.youtube.com/watch?v=shhj4RAuZq8" data-toggle="lightbox" data-gallery="youtubevideos">
                         <img src="https://i.ytimg.com/vi/shhj4RAuZq8/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDAmd7s7I6uInd9ipWPR0y6qBKjAQ" class="img-fluid">
                     </a>
@@ -178,6 +179,21 @@
             $(this).ekkoLightbox();
         });
     </script>
+    <!----<script>
+        $('[data-toggle="lightbox"]').on('click', function(e) {
+            e.preventDefault();
+            $(this).ekkoLightbox({
+                onShow: function() {
+                    $('body').addClass('lightbox-open');
+                },
+                onHidden: function() {
+                    $('body').removeClass('lightbox-open');
+                },
+            });
+    });
+    </script>
+    >
+    
 
 </body>
 </html>

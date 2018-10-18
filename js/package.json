@@ -1,0 +1,26 @@
+{
+  "name": "izone",
+  "version": "1.0.0",
+  "description": "try to fix ekko",
+  "main": "active.js",
+  "scripts": {
+    "start": "node active.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/17n19/izone.git"
+  },
+  "keywords": [
+    "izone"
+  ],
+  "author": "17n19",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/17n19/izone/issues"
+  },
+  "homepage": "https://github.com/17n19/izone#readme",
+  "dependencies": {
+    "ekko-lightbox": "^5.3.0"
+  }
+}
